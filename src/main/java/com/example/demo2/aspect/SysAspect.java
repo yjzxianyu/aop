@@ -50,7 +50,7 @@ public class SysAspect {
         logEntity.setDate(dateFormat.format(new Date()));
         //注解备注
         if (sysLog !=null){
-            logEntity.setRemark(sysLog.value());
+            logEntity.setValue(sysLog.value());
         }
         //参数列表
         Object[] arguments = joinPoint.getArgs();

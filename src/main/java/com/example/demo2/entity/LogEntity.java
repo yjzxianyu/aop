@@ -14,13 +14,18 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 public class LogEntity {
+    //路径
     private String className;
 
+    //方法名
     private String methodName;
 
+    //参数
     private String params;
 
-    private String remark;
+    //value
+    private String value;
 
+    //创建时间
     private String date;
 }
